@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F64DED51151E387A00FA5CE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64DED50151E387A00FA5CE7 /* UIKit.framework */; };
+		F64DED53151E387A00FA5CE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64DED52151E387A00FA5CE7 /* Foundation.framework */; };
+		F64DED55151E387A00FA5CE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64DED54151E387A00FA5CE7 /* CoreGraphics.framework */; };
+		F64DED5B151E387A00FA5CE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F64DED59151E387A00FA5CE7 /* InfoPlist.strings */; };
+		F64DED5D151E387A00FA5CE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F64DED5C151E387A00FA5CE7 /* main.m */; };
+		F64DED61151E387A00FA5CE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F64DED60151E387A00FA5CE7 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F64DED4C151E387A00FA5CE7 /* Pringles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pringles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64DED50151E387A00FA5CE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F64DED52151E387A00FA5CE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F64DED54151E387A00FA5CE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F64DED58151E387A00FA5CE7 /* Pringles-Info.plist */ = {isa = PBXFileReference; path = "Pringles-Info.plist"; sourceTree = "<group>"; };
+		F64DED5A151E387A00FA5CE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F64DED5C151E387A00FA5CE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F64DED5E151E387A00FA5CE7 /* Pringles-Prefix.pch */ = {isa = PBXFileReference; path = "Pringles-Prefix.pch"; sourceTree = "<group>"; };
+		F64DED5F151E387A00FA5CE7 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F64DED60151E387A00FA5CE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F64DED49151E387A00FA5CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64DED51151E387A00FA5CE7 /* UIKit.framework in Frameworks */,
+				F64DED53151E387A00FA5CE7 /* Foundation.framework in Frameworks */,
+				F64DED55151E387A00FA5CE7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F64DED41151E387A00FA5CE7 = {
+			isa = PBXGroup;
+			children = (
+				F64DED56151E387A00FA5CE7 /* Pringles */,
+				F64DED4F151E387A00FA5CE7 /* Frameworks */,
+				F64DED4D151E387A00FA5CE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F64DED4D151E387A00FA5CE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F64DED4C151E387A00FA5CE7 /* Pringles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F64DED4F151E387A00FA5CE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F64DED50151E387A00FA5CE7 /* UIKit.framework */,
+				F64DED52151E387A00FA5CE7 /* Foundation.framework */,
+				F64DED54151E387A00FA5CE7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F64DED56151E387A00FA5CE7 /* Pringles */ = {
+			isa = PBXGroup;
+			children = (
+				F64DED5F151E387A00FA5CE7 /* AppDelegate.h */,
+				F64DED60151E387A00FA5CE7 /* AppDelegate.m */,
+				F64DED57151E387A00FA5CE7 /* Supporting Files */,
+			);
+			path = Pringles;
+			sourceTree = "<group>";
+		};
+		F64DED57151E387A00FA5CE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F64DED58151E387A00FA5CE7 /* Pringles-Info.plist */,
+				F64DED59151E387A00FA5CE7 /* InfoPlist.strings */,
+				F64DED5C151E387A00FA5CE7 /* main.m */,
+				F64DED5E151E387A00FA5CE7 /* Pringles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F64DED4B151E387A00FA5CE7 /* Pringles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64DED64151E387A00FA5CE7 /* Build configuration list for PBXNativeTarget "Pringles" */;
+			buildPhases = (
+				F64DED48151E387A00FA5CE7 /* Sources */,
+				F64DED49151E387A00FA5CE7 /* Frameworks */,
+				F64DED4A151E387A00FA5CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pringles;
+			productName = Pringles;
+			productReference = F64DED4C151E387A00FA5CE7 /* Pringles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F64DED43151E387A00FA5CE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F64DED46151E387A00FA5CE7 /* Build configuration list for PBXProject "Pringles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F64DED41151E387A00FA5CE7;
+			productRefGroup = F64DED4D151E387A00FA5CE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F64DED4B151E387A00FA5CE7 /* Pringles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F64DED4A151E387A00FA5CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64DED5B151E387A00FA5CE7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F64DED48151E387A00FA5CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64DED5D151E387A00FA5CE7 /* main.m in Sources */,
+				F64DED61151E387A00FA5CE7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F64DED59151E387A00FA5CE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64DED5A151E387A00FA5CE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F64DED62151E387A00FA5CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F64DED63151E387A00FA5CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F64DED65151E387A00FA5CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pringles/Pringles-Prefix.pch";
+				INFOPLIST_FILE = "Pringles/Pringles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F64DED66151E387A00FA5CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pringles/Pringles-Prefix.pch";
+				INFOPLIST_FILE = "Pringles/Pringles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F64DED46151E387A00FA5CE7 /* Build configuration list for PBXProject "Pringles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64DED62151E387A00FA5CE7 /* Debug */,
+				F64DED63151E387A00FA5CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64DED64151E387A00FA5CE7 /* Build configuration list for PBXNativeTarget "Pringles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64DED65151E387A00FA5CE7 /* Debug */,
+				F64DED66151E387A00FA5CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F64DED43151E387A00FA5CE7 /* Project object */;
+}
