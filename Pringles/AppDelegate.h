@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SX_Dynamic.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    UINavigationController *viewController;
+
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

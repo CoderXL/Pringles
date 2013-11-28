@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Global.h"
+
 
 @implementation AppDelegate
 
@@ -23,7 +25,23 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    //[self.window makeKeyAndVisible];
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+	[UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleBlackOpaque;
+	SX_Dynamic *mainPage = [[[SX_Dynamic alloc] init] autorelease];
+	viewController = [[UINavigationController alloc] initWithRootViewController:mainPage];
+	viewController.navigationBar.tintColor = NAVBARBGCOLOR;
+    // [UIColor colorWithPatternImage:[UIImage imageNamed:@"top.png"]];//
+    
+    
+    
+	[self.window addSubview:viewController.view];
+	[Global GetInstance].mainViewController = viewController;
     [self.window makeKeyAndVisible];
+    
+
+    
     return YES;
 }
 
